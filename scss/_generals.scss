@@ -5,10 +5,12 @@
 }
 
 body {
-  margin: 0; 
+  margin: 0 auto;
   padding: 0;
-  font-family: "Arial", sans-serif;
-  
+  font-family: "Manrope", sans-serif;
+  max-width: 1440px;
+  background: rgba(244, 244, 244, 1);
+
 }
 
 img {
@@ -18,9 +20,29 @@ img {
 
 a {
   text-decoration: none;
+  color: #000000;
 }
-h1,h2,h3,h4{
+
+h1,
+h2,
+h3,
+p {
   margin: 0;
+
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
 }
 
 .visually-hidden {
@@ -31,4 +53,50 @@ h1,h2,h3,h4{
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.button {
+  border: 8px;
+  border: 1px solid $green-text;
+
+}
+
+.login-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  padding: 10px 23px;
+  color: $green-text;
+  margin-right: 9px;
+}
+
+.create-link {
+  background-color: $green-text;
+  color: #fff;
+  padding: 10px 24px 10px 48px;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    content: "+";
+    left: 20px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+  }
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Remove default arrow */
+  background-image: url(...);
+  /* Add custom arrow */
+  border: none;
+  &:focus{
+    outline: none;
+  }
 }
