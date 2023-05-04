@@ -1,0 +1,93 @@
+.sellers {
+    margin-bottom: 32px;
+}
+
+.sellers-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sellers-top-sellers-wrapper {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 40px 48px 20px 32px;
+}
+
+.sellers-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.sellers-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+    flex-shrink: 0;
+}
+
+.sellers-item-img {
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.sellers-name {
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+
+.sellers-ads {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #323232;
+    opacity: 0.35;
+}
+
+.sellers-column {
+    margin-right: 52px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.sellers-map-wrapper {
+    z-index: 99;
+    padding: 104px 51px 114px 49px;
+    background: url(/img/map-after.png) no-repeat center center;
+    position: relative;
+}
+
+.sellers-map {
+    text-align: center;
+    background: url(/img/map-bg.jpg) no-repeat center center;
+    border-radius: 8px;
+}
+
+.sellers-map-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.sellers-map-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    margin-bottom: 42px;
+    width: 306px;
+    z-index: 99;
+}

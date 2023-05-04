@@ -1,0 +1,171 @@
+.footer {
+    background-color: #fff;
+    padding: 40px 0px 32px 0px;
+}
+
+.footer-logo-link {
+    display: block;
+    margin: 0 auto;
+    width: 158px;
+    margin-bottom: 24px;
+}
+
+.footer-about-text {
+    text-align: center;
+    width: 469px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.477778px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.footer-form {
+    width: 448px;
+    margin: 0 auto;
+    border: 1px solid $green-text;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+
+}
+
+.footer-form-button {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 24px;
+    padding: 12px 23px;
+    margin-right: 2px;
+}
+
+.footer-input {
+    border: transparent;
+    padding: 14px 0px 14px 24px;
+    border-radius: 24px;
+    line-height: 20px;
+    letter-spacing: -0.177778px;
+    color: $green-text;
+
+    &::placeholder {
+        color: $green-text;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-item-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.177778px;
+    margin-bottom: 17px;
+}
+
+.footer-list-item {
+    margin-bottom: 12px;
+}
+
+.footer-item {
+
+    &:first-child,
+    &:nth-child(3) {
+        margin-right: 120px;
+    }
+
+    margin-right: 40px;
+}
+
+.footer-item-link {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.155556px;
+
+}
+
+.footer-lists-wrapper {
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 39px;
+}
+
+.footer-payment-list {
+    display: flex;
+    justify-content: space-between;
+    width: 356px;
+    flex-wrap: wrap;
+}
+
+.footer-payment-item {
+    margin-bottom: 16px;
+}
+
+.messengers {
+    padding-left: 28px;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        content: '';
+        left: 0;
+    }
+}
+
+.facebook {
+    &::after {
+        background: url(/img/facebook.png) no-repeat center center;
+    }
+}
+
+.twitter {
+    &::after {
+        background: url(/img/twitter.png) no-repeat center center;
+    }
+}
+
+.instagram {
+    &::after {
+        background: url(/img/insta.png) no-repeat center center;
+    }
+}
+
+.you-tube {
+    &::after {
+        background: url(/img/you.png) no-repeat center center;
+    }
+}
+
+.footer-info-wrapper {
+    display: flex;
+    padding: 28px 46px 32px 0px;
+    justify-content: space-between;
+}
+
+.footer-contact-wrapper {
+    display: flex;
+}
+
+.footer-info-text {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.155556px;
+    color: #8D9AAF;
+    margin-right: 44px;
+    &:last-child{
+        margin-right: 0;
+    }
+
+}
