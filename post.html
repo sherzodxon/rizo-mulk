@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add-post</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container container">
+            <div class="header-tools-wrapper">
+            <div class="header-location-wrapper">
+                <p class="header-location-text">Местоположение:</p>
+                <button class="header-location-button">Выберите регион</button>
+            </div>
+            <div class="header-tools">
+                <ul class="header-tools-list">
+                    <li class="header-tools-item">
+                        <button class="header-tools-theme-controller header-tools-link">Ночной режим</button>
+                    </li>
+                    <li class="header-tools-item">
+                        <a href="/index.html" class="header-tools-link">О проекте</a>
+                    </li>
+                    <li class="header-tools-item">
+                        <a href="/index.html" class="header-tools-link">Реклама</a>
+                    </li>
+                    <li class="header-tools-item">
+                        <a href="/index.html" class="header-tools-link">Как подать объявление?</a>
+                    </li>
+                    <li class="header-tools-item">
+                        <a href="/index.html" class="header-tools-link">Контакты</a>
+                    </li>
+                </ul>
+                <button class="header-tools-language-controller">Русский</button>
+            </div>
+            </div>
+        </div>
+        <hr class="header-hr">
+        <div class="header-container container">
+            <div class="header-main header-post-main">
+                <a href="index.html" class="header-logo ">
+                    <img  src="/img/text-logo.png" alt="logo" width="123" height="42">
+                </a>
+                <nav class="header-nav">
+                    <ul class="header-nav-list">
+                        <li class="header-nav-item">
+                            <a href="index.html" class="header-nav-link">Аренда</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="index.html" class="header-nav-link">Продажа</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="index.html" class="header-nav-link">Новостройки</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="index.html" class="header-nav-link">Ипотека</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="index.html" class="header-nav-link">Как купить?</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-buttons-wrapper">
+                    <a href="/index.html" class="header-buttons header-heart-link">
+                    </a>
+                    <a href="index.html" class="header-buttons button login-button green-white-button">Войти</a>
+                    <a href="index.html" class="header-buttons button create-link">Добавить объявление</a>
+                </div>
+            </div>
+        </div>
+       </header>
+       <section class="range">
+        <div class="container range-container">
+            <h2 class="range-title">Добавить новое обьявление</h2>
+            <p class="range-text">Для добавления вашего обьявлении вы должны выбрать категорию</p>
+            <ul class="range-step-list">
+                <li class="range-step-item range-step-item--active">
+                    <p class="range-step-text">Выберите категорию</p>
+                    <span class="range-step-span"></span>
+                </li>
+                <li class="range-step-item">
+                    <p class="range-step-text">Основная информация</p>
+                    <span class="range-step-span"></span>
+                </li>
+                <li class="range-step-item">
+                    <p class="range-step-text">Финальный результат</p>
+                    <span class="range-step-span"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="range-purchase-wrapper">
+            <h3 class="range-purchase-title">Новое обьявление</h3>
+            <form class="range-purchase-form">
+                <label class="range-purchase-label">
+                    <input type="radio" name="range" class="range-purchase-input">
+                    <div class="range-purchase-item">Продать</div>
+                </label>
+                <label class="range-purchase-label">
+                    <input type="radio" name="range" class="range-purchase-input">
+                    <div class="range-purchase-item">Сдать длительно</div>
+                </label>
+                <label class="range-purchase-label">
+                    <input type="radio" name="range" class="range-purchase-input">
+                    <div class="range-purchase-item">Сдать посуточно</div>
+                </label>
+            </form>
+        </div>
+        <div class="range-purchase-wrapper">
+            <h3 class="range-purchase-title">Новое обьявление</h3>
+            <form class="range-purchase-form">
+                <label class="range-purchase-label">
+                    <input type="radio" name="rane" class="range-purchase-input">
+                    <div class="range-purchase-item">Квартира</div>
+                </label>
+                <label class="range-purchase-label">
+                    <input type="radio" name="rane" class="range-purchase-input">
+                    <div class="range-purchase-item">Комната</div>
+                </label>
+                <label class="range-purchase-label">
+                    <input type="radio" name="rane" class="range-purchase-input">
+                    <div class="range-purchase-item">Дом</div>
+                </label>
+                <label class="range-purchase-label">
+                    <input type="radio" name="rane" class="range-purchase-input">
+                    <div class="range-purchase-item">Гараж</div>
+                </label>
+                <label class="range-purchase-label">
+                    <input type="radio" name="rane" class="range-purchase-input">
+                    <div class="range-purchase-item">Коммерческая</div>
+                </label>
+                <label class="range-purchase-label">
+                    <input type="radio" name="rane" class="range-purchase-input">
+                    <div class="range-purchase-item">Участок</div>
+                </label>
+            </form>
+        </div>
+       </section>
+</body>
+</html>
