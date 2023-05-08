@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,41 +8,42 @@
     <title>Add-post</title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
+
 <body>
     <header class="header">
         <div class="header-container container">
             <div class="header-tools-wrapper">
-            <div class="header-location-wrapper">
-                <p class="header-location-text">Местоположение:</p>
-                <button class="header-location-button">Выберите регион</button>
-            </div>
-            <div class="header-tools">
-                <ul class="header-tools-list">
-                    <li class="header-tools-item">
-                        <button class="header-tools-theme-controller header-tools-link">Ночной режим</button>
-                    </li>
-                    <li class="header-tools-item">
-                        <a href="/index.html" class="header-tools-link">О проекте</a>
-                    </li>
-                    <li class="header-tools-item">
-                        <a href="/index.html" class="header-tools-link">Реклама</a>
-                    </li>
-                    <li class="header-tools-item">
-                        <a href="/index.html" class="header-tools-link">Как подать объявление?</a>
-                    </li>
-                    <li class="header-tools-item">
-                        <a href="/index.html" class="header-tools-link">Контакты</a>
-                    </li>
-                </ul>
-                <button class="header-tools-language-controller">Русский</button>
-            </div>
+                <div class="header-location-wrapper">
+                    <p class="header-location-text">Местоположение:</p>
+                    <button class="header-location-button">Выберите регион</button>
+                </div>
+                <div class="header-tools">
+                    <ul class="header-tools-list">
+                        <li class="header-tools-item">
+                            <button class="header-tools-theme-controller header-tools-link">Ночной режим</button>
+                        </li>
+                        <li class="header-tools-item">
+                            <a href="/index.html" class="header-tools-link">О проекте</a>
+                        </li>
+                        <li class="header-tools-item">
+                            <a href="/index.html" class="header-tools-link">Реклама</a>
+                        </li>
+                        <li class="header-tools-item">
+                            <a href="/index.html" class="header-tools-link">Как подать объявление?</a>
+                        </li>
+                        <li class="header-tools-item">
+                            <a href="/index.html" class="header-tools-link">Контакты</a>
+                        </li>
+                    </ul>
+                    <button class="header-tools-language-controller">Русский</button>
+                </div>
             </div>
         </div>
         <hr class="header-hr">
         <div class="header-container container">
             <div class="header-main header-post-main">
                 <a href="index.html" class="header-logo ">
-                    <img  src="/img/text-logo.png" alt="logo" width="123" height="42">
+                    <img src="/img/text-logo.png" alt="logo" width="123" height="42">
                 </a>
                 <nav class="header-nav">
                     <ul class="header-nav-list">
@@ -70,8 +72,8 @@
                 </div>
             </div>
         </div>
-       </header>
-       <section class="range">
+    </header>
+    <section class="range">
         <div class="container range-container">
             <h2 class="range-title">Добавить новое обьявление</h2>
             <p class="range-text">Для добавления вашего обьявлении вы должны выбрать категорию</p>
@@ -89,53 +91,500 @@
                     <span class="range-step-span"></span>
                 </li>
             </ul>
+            <div class="range-purchase-wrapper">
+                <h3 class="range-purchase-title">Новое обьявление</h3>
+                <form class="range-purchase-form">
+                    <label class="range-purchase-label">
+                        <input type="radio" name="range" class="range-purchase-input">
+                        <div class="range-purchase-item pur1">Продать</div>
+                    </label>
+                    <label class="range-purchase-label">
+                        <input type="radio" name="range" class="range-purchase-input">
+                        <div class="range-purchase-item pur2">Сдать длительно</div>
+                    </label>
+                    <label class="range-purchase-label">
+                        <input type="radio" name="range" class="range-purchase-input">
+                        <div class="range-purchase-item pur3">Сдать посуточно</div>
+                    </label>
+                </form>
+            </div>
+            <div class="range-purchase-wrapper">
+                <h3 class="range-purchase-title">Новое обьявление</h3>
+                <form class="range-purchase-form">
+                    <label class="range-purchase-label">
+                        <input type="radio" name="rane" class="range-purchase-input">
+                        <div class="range-purchase-item pur4">Квартира</div>
+                    </label>
+                    <label class="range-purchase-label">
+                        <input type="radio" name="rane" class="range-purchase-input">
+                        <div class="range-purchase-item pur5">Комната</div>
+                    </label>
+                    <label class="range-purchase-label">
+                        <input type="radio" name="rane" class="range-purchase-input">
+                        <div class="range-purchase-item pur6">Дом</div>
+                    </label>
+                    <label class="range-purchase-label">
+                        <input type="radio" name="rane" class="range-purchase-input">
+                        <div class="range-purchase-item pur7">Гараж</div>
+                    </label>
+                    <label class="range-purchase-label">
+                        <input type="radio" name="rane" class="range-purchase-input">
+                        <div class="range-purchase-item pur8">Коммерческая</div>
+                    </label>
+                    <label class="range-purchase-label">
+                        <input type="radio" name="rane" class="range-purchase-input">
+                        <div class="range-purchase-item pur9">Участок</div>
+                    </label>
+                    
+                </form>
+            </div>
+            <div class="range-map-wrapper">
+                <h3 class="range-purchase-title">Адрес дома</h3>
+                <div class="range-map-input-wrapper">
+                    <input placeholder="Укажите адрес или название ЖК" type="text"
+                        class="range-input range-map-input map-address-input">
+                    <input placeholder="Квартира" type="text" class="range-input range-map-input map-kv-input">
+                </div>
+                <img src="/img/range-map.jpg" alt="map" class="range-map-img">
+            </div>
+            <div class="range-map-wrapper range-home-about">
+                <h3 class="range-purchase-title absolute-title">О дома</h3>
+                <div class="range-map-input-wrapper">
+                    <div class="range-map-label-input">
+                        <label for="remont-year" class="range-label range-radio-text ">Год постройки</label>
+                        <input id="remont-year" type="text" class="range-input range-home-input"></div>
+                    <div class="range-map-label-input">
+                        <label for="potolko" class="range-label">Высота потолков, м</label>
+                        <input id="potolko" type="text" class="range-input range-home-input">
+                    </div>
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Тип парковки</p>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio1" class="range-purchase-input">
+                        <div class="range-radio-item">Закрытая</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio1" class="range-purchase-input">
+                        <div class="range-radio-item">Подземная</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio1" class="range-purchase-input">
+                        <div class="range-radio-item">Закрытая</div>
+                    </label>
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Тип дома</p>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radios1" class="range-purchase-input">
+                        <div class="range-radio-item">Кирпич</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radios1" class="range-purchase-input">
+                        <div class="range-radio-item">Монолит</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radios1" class="range-purchase-input">
+                        <div class="range-radio-item">Панель</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radios1" class="range-purchase-input">
+                        <div class="range-radio-item">Кирпич-монолит</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radios1" class="range-purchase-input">
+                        <div class="range-radio-item">Блок </div>
+                    </label>
+                </div>
+            </div>
+            <div class="range-map-wrapper range-home-about">
+                <h3 class="range-home-title absolute-title">О квартире</h3>
+                <div class="range-radio-wrapper range-radio-number-wrapper">
+                    <p class="range-radio-text">Комнат</p>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio2" class="range-purchase-input">
+                        <div class="range-radio-item range-number">1</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio2" class="range-purchase-input">
+                        <div class="range-radio-item range-number">2</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio2" class="range-purchase-input">
+                        <div class="range-radio-item range-number">3</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio2" class="range-purchase-input">
+                        <div class="range-radio-item range-number">4</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio2" class="range-purchase-input">
+                        <div class="range-radio-item range-number">5</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio2" class="range-purchase-input">
+                        <div class="range-radio-item range-number">6</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio2" class="range-purchase-input">
+                        <div class="range-radio-item range-number">7+</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio2" class="range-purchase-input">
+                        <div class="range-radio-item">Студия</div>
+                    </label>
+                </div>
+                <div class="range-map-input-wrapper">
+                    <p class="range-radio-text">Плошадь м2</p>
+                    <input type="text" placeholder="Общая" class="range-input range-area-input">
+                    <input type="text" placeholder="Жилая" class="range-input range-area-input">
+                    <input type="text" placeholder="Кухня " class="range-input range-area-input">
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Этаж</p>
+                    <input type="number" class="range-input floor-input range-area-input">
+                    <p class="range-floor-text">из</p>
+                    <input type="number" class="range-input floor-input range-area-input">
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Статус</p>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio3" class="range-purchase-input">
+                        <div class="range-radio-item">Апартменты</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio3" class="range-purchase-input">
+                        <div class="range-radio-item">Жилой фонд</div>
+                    </label>
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Санузел</p>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio4" class="range-purchase-input">
+                        <div class="range-radio-item">Совмещенный</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio4" class="range-purchase-input">
+                        <div class="range-radio-item">Разделный</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio4" class="range-purchase-input">
+                        <div class="range-radio-item">Более одного</div>
+                    </label>
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Балкон</p>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio5" class="range-purchase-input">
+                        <div class="range-radio-item">Балкон</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio5" class="range-purchase-input">
+                        <div class="range-radio-item">Люджия</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio5" class="range-purchase-input">
+                        <div class="range-radio-item">Нет</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio5" class="range-purchase-input">
+                        <div class="range-radio-item">+</div>
+                    </label>
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Ремонт</p>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio6" class="range-purchase-input">
+                        <div class="range-radio-item">Косметический</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio6" class="range-purchase-input">
+                        <div class="range-radio-item">Евро</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio6" class="range-purchase-input">
+                        <div class="range-radio-item">Дизайнерский</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio6" class="range-purchase-input">
+                        <div class="range-radio-item">Требуется</div>
+                    </label>
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Окна</p>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio7" class="range-purchase-input">
+                        <div class="range-radio-item">Во двор</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio7" class="range-purchase-input">
+                        <div class="range-radio-item">На улицу</div>
+                    </label>
+                </div>
+
+            </div>
+            <div class="range-map-wrapper range-home-about">
+                <h3 class="range-purchase-title absolute-title">Внешний вид и подробности</h3>
+                <p class="range-purchase-info range-absolute-info">Сфотографируйте все комнаты, кухню, санузел, коридор,
+                    балкон, вид из окна, фасад здания, подъезд. Не используйте скриншоты. Максимум 30 фото до 10 Мбайт
+                </p>
+                <div class="range-radio-wrapper range-img-input-wrapper">
+                    <p class="range-radio-text img-input-title">Добавьте
+                        фотографию</p>
+                    <ul class="range-input-img-list">
+                        <li class="range-img-input img-input-added"></li>
+                        <li class="range-img-input img-input-deleted"></li>
+                        <li class="range-img-input img-input-adder"></li>
+                        <li class="range-img-input"></li>
+                        <li class="range-img-input"></li>
+                        <li class="range-img-input"></li>
+                        <li class="range-img-input"></li>
+                        <li class="range-img-input"></li>
+                    </ul>
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">YouTube видео</p>
+                    <input type="url" class="range-input range-youtube-input"
+                        placeholder="https://youtu.be/Ulay2FvUEd8">
+                    <p class="range-youtube-info">Требованиями к контенту ролика, а также ссылка на помощь с <a
+                            href="index.html" class="range-youtube-link">рекомендациями по подготовке ролика</a></p>
+                </div>
+                <div class="range-radio-wrapper range-textarea-wrapper">
+                    <p class="range-radio-text textarea-text">Подробнее</p>
+                    <textarea class="range-input range-youtube-input range-textarea" name="text" id="text" cols="30"
+                        rows="10"></textarea>
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Удобства</p>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio7" class="range-purchase-input">
+                        <div class="range-radio-item">Интернет</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio7" class="range-purchase-input">
+                        <div class="range-radio-item">Холдильник</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio7" class="range-purchase-input">
+                        <div class="range-radio-item">Мебель на кухне</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio7" class="range-purchase-input">
+                        <div class="range-radio-item">Кондиционер</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio7" class="range-purchase-input">
+                        <div class="range-radio-item">Лифт</div>
+                    </label>
+                </div>
+                <div class="range-radio-wrapper">
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio7" class="range-purchase-input">
+                        <div class="range-radio-item">Мебель в квартире</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio7" class="range-purchase-input">
+                        <div class="range-radio-item">Мусопровод</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio7" class="range-purchase-input">
+                        <div class="range-radio-item">Консьсерж</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio7" class="range-purchase-input">
+                        <div class="range-radio-item">Закрытая территория</div>
+                    </label>
+                </div>
+            </div>
+            <div class="range-map-wrapper range-home-about">
+                <h3 class="range-home-title absolute-title">Цена и условия сделки</h3>
+                <div class="range-radio-wrapper range-radio-number-wrapper">
+                    <p class="range-radio-text">Цена дома</p>
+                    <div class="range-valyuta-wrapper">
+                        <input type="number" pattern="[1-9]" placeholder="0" class="range-input range-home-input">
+                    </div>
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Тип сделки</p>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio8" class="range-purchase-input">
+                        <div class="range-radio-item">Свободная продажа</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio8" class="range-purchase-input">
+                        <div class="range-radio-item">Альтернатива</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio8" class="range-purchase-input">
+                        <div class="range-radio-item">Переступка</div>
+                    </label>
+
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Дополнительно</p>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio9" class="range-purchase-input">
+                        <div class="range-radio-item">Возможен торг</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio9" class="range-purchase-input">
+                        <div class="range-radio-item">Ипотека</div>
+                    </label>
+                </div>
+            </div>
+            <div class="range-map-wrapper range-home-about">
+                <h3 class="range-home-title absolute-title">Контакты</h3>
+                <div class="range-radio-wrapper range-radio-number-wrapper">
+                    <p class="range-radio-text">Тип аккаунта</p>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio10" class="range-purchase-input">
+                        <div class="range-radio-item">Собственник</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio10" class="range-purchase-input">
+                        <div class="range-radio-item">Агент</div>
+                    </label>
+                    <label class="range-radio-label">
+                        <input type="radio" name="radio10" class="range-purchase-input">
+                        <div class="range-radio-item">Агенство</div>
+                    </label>
+
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Ваша имя</p>
+                    <input type="text" class="range-input range-youtube-input"
+                        placeholder="https://youtu.be/Ulay2FvUEd8">
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Эл. почта</p>
+                   <div class="range-email-input-wrapper">
+                    <input type="text" class="range-email-input "
+                    placeholder="rizomulkceo@gmaol.com">
+                    <span class="range-email-span"></span>
+                    <button class="range-email-button">Изменить</button>
+                   </div>
+                </div>
+                <div class="range-radio-wrapper">
+                    <p class="range-radio-text">Телефон</p>
+                    <input type="tel" class="range-input range-youtube-input"
+                    value="+998">
+                    <button class="range-tel-button">Подтвердить</button>
+                </div>
+            </div>
+                  <div class="range-submit-wrapper">
+                    <button class="range-submit-button">Сохранить как черновик</button>
+                    <button class="range-submit-button publish-button">Опубликовать</button>
+                  </div>
         </div>
-        <div class="range-purchase-wrapper">
-            <h3 class="range-purchase-title">Новое обьявление</h3>
-            <form class="range-purchase-form">
-                <label class="range-purchase-label">
-                    <input type="radio" name="range" class="range-purchase-input">
-                    <div class="range-purchase-item">Продать</div>
-                </label>
-                <label class="range-purchase-label">
-                    <input type="radio" name="range" class="range-purchase-input">
-                    <div class="range-purchase-item">Сдать длительно</div>
-                </label>
-                <label class="range-purchase-label">
-                    <input type="radio" name="range" class="range-purchase-input">
-                    <div class="range-purchase-item">Сдать посуточно</div>
-                </label>
+
+    </section>
+    <footer class="footer">
+        <div class="footer-container container">
+            <a href="index.html" class="footer-logo-link"><img src="img/text-logo.png" alt="logo" width="158" height="54" class="footer-logo"></a>
+            <p class="footer-about-text">Поделитесь с нами своей электронной почтой и мы сообщим вам о скидках, выгодных предложениях и новых продуктах.</p>
+            <form  class="footer-form">
+                <input class="footer-input" type="email" required placeholder="Email">
+                <button class="footer-form-button green-button" type="submit">Отправить</button>
             </form>
+            <div class="footer-lists-wrapper">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <ul class="footer-item-list">
+                            <h4 class="footer-item-title">Компания</h4>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link"> О нас</a></li>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link">Ваканция</a></li>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link">Объявления</a></li>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link">Блог</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-item">
+                        <ul class="footer-item-list">
+                            <h4 class="footer-item-title">Помощь</h4>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link">Связаться с нами</a></li>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link">Услуги</a></li>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link">Условия использования</a></li>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link">Карта сайта</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-item">
+                        <ul class="footer-item-list">
+                            <h4 class="footer-item-title">Другие</h4>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link">Настройка</a></li>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link">Профиль</a></li>
+                           
+                        </ul>
+                    </li>
+                    <li class="footer-item">
+                        <ul class="footer-item-list">
+                            <h4 class="footer-item-title">
+                                Мы в соцсетях</h4>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link messengers facebook">Facebook</a></li>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link messengers twitter">Twitter</a></li>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link messengers instagram">Instagram</a></li>
+                            <li class="footer-list-item">
+                                <a href="index.html" class="footer-item-link messengers you-tube">Youtube</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="footer-payment-list">
+                    <li class="footer-payment-item">
+                        <a href="" class="footer-payment-link">
+                            <img src="/img/aplelsin.png" width="108" height="56" alt="payment" class="footer-payment-logo">
+                        </a>
+                    </li>
+                    <li class="footer-payment-item">
+                        <a href="" class="footer-payment-link">
+                            <img src="/img/uzca.png" width="108" height="56" alt="payment" class="footer-payment-logo">
+                        </a>
+                    </li>
+                    <li class="footer-payment-item">
+                        <a href="" class="footer-payment-link">
+                            <img src="/img/click.png" width="108" height="56" alt="payment" class="footer-payment-logo">
+                        </a>
+                    </li>
+                    <li class="footer-payment-item">
+                        <a href="" class="footer-payment-link">
+                            <img src="/img/payme.png" width="108" height="56" alt="payment" class="footer-payment-logo">
+                        </a>
+                    </li>
+                    <li class="footer-payment-item">
+                        <a href="" class="footer-payment-link">
+                            <img src="/img/humo.png" width="108" height="56" alt="payment" class="footer-payment-logo">
+                        </a>
+                    </li>
+                    <li class="footer-payment-item">
+                        <a href="" class="footer-payment-link">
+                            <img src="/img/paynet.png" width="108" height="56" alt="payment" class="footer-payment-logo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="range-purchase-wrapper">
-            <h3 class="range-purchase-title">Новое обьявление</h3>
-            <form class="range-purchase-form">
-                <label class="range-purchase-label">
-                    <input type="radio" name="rane" class="range-purchase-input">
-                    <div class="range-purchase-item">Квартира</div>
-                </label>
-                <label class="range-purchase-label">
-                    <input type="radio" name="rane" class="range-purchase-input">
-                    <div class="range-purchase-item">Комната</div>
-                </label>
-                <label class="range-purchase-label">
-                    <input type="radio" name="rane" class="range-purchase-input">
-                    <div class="range-purchase-item">Дом</div>
-                </label>
-                <label class="range-purchase-label">
-                    <input type="radio" name="rane" class="range-purchase-input">
-                    <div class="range-purchase-item">Гараж</div>
-                </label>
-                <label class="range-purchase-label">
-                    <input type="radio" name="rane" class="range-purchase-input">
-                    <div class="range-purchase-item">Коммерческая</div>
-                </label>
-                <label class="range-purchase-label">
-                    <input type="radio" name="rane" class="range-purchase-input">
-                    <div class="range-purchase-item">Участок</div>
-                </label>
-            </form>
+        <hr class="footer-hr header-hr">
+        <div class="footer-container container">
+            <div class="footer-info-wrapper">
+                <p class="footer-info-text">© 2022 — Rizo Mulk</p>
+                <div class="footer-contact-wrapper">
+                 <p class="footer-info-text">info@rizomulk.uz</p>
+                 <p class="footer-info-text">+998 97 123 45 67</p>
+                 <p class="footer-info-text">Узбекистан, Ташекент, Чиланзар </p>
+                </div>
+            </div>
         </div>
-       </section>
+       </footer>
 </body>
+
 </html>

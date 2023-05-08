@@ -1,4 +1,3 @@
-
 .header{
     background-color: #fff;
 }.header-tools-wrapper {
@@ -6,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 17px 0px 16px 0px;
+   
   
 }
 .header-post-main{
@@ -19,6 +19,8 @@
 
 .header-tools-list {
     display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
 }
 
 .header-location-wrapper {
@@ -117,6 +119,8 @@
 .header-nav-list{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    margin-right: 40px;
 }
 .header-nav-item{
     margin-right: 32px;
