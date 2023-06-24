@@ -6,6 +6,7 @@
 .example-list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .example-img{
     border-radius: 50%;
